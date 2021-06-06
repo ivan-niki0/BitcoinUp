@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header > h1,
+.header > h2 {
+    font-weight: 900;
+    color: #353232;
+    font-size: 2.9rem;
+    line-height: 63.9px;
+}
+
+.header > p {
+   color: #8d8d8d;
+   font-size: 17px;
+}
+
+/* NAV */
+.nav-text > a {
+    color: white; 
+}
+
+.navbar-nav > li {
+    padding: 1rem;
+    font-size: 16px;
+}
+
+.navbar-brand > img{
+    width: 180px;
+    margin-left: 2rem;
+}
+
+.navbar {
+    background-image: url(/pictures/full-img.png);
+    background-color: rgb(86, 29, 139);
+    background-size: cover;
+	display: flex;
+	width: 100%;
+	height: inherit;
+	justify-content: space-between;
+}
+
+.navbar-nav li a {
+    color: #FFFFFF !important;
+}
+
+/* Main-a */
+
+/* Footer */
+.footer {
+    background-color: #F5F5F5;
+    min-height: 150px;
+}
+
+.footer ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer ul {
+    word-spacing: 1rem;
+}
+
+.footer p {
+    color: #8D8D8D;
+    font-size: 10px;
+}
+
+/* End Text */
+.end-text>h2 {
+	font-size: 2.5rem;
+	font-family: Geometria;
+	font-weight: 800;
+	color: #353232;
+}
+.end-text>h3 {
+	font-size: 1.9rem;
+	font-family: Geometria;
+	font-weight: 800;
+	color: #353232;
+}
+
+.end-text>p {
+	font-size: 1.1rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	/*margin-top: 70px;*/
+	color: #8D8D8D;
+}
+.access-acc {
+	width: 100%;
+	text-align: center;
+	/*margin-top: 70px;*/
+}
+
+.btn {
+	font-family: 'Axiforma', sans-serif;
+	text-align: center;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.800rem 2.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.bg-orange {
+    background-color: #F9A14B;
+    color: #FFFFFF;
+}
+
+.bg-orange:hover {
+    background-color: #c27930 !important;
+    border-color: #a8631e !important;
+}
+
+.text-purple {
+    color: #8B4ABE;
+}
+
+@media (max-width: 767.98px) {
+    .header > h1,
+    .header > h2 {
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .text-center h1 { 
+        font-size: 1.9rem;
+     }
+}
